@@ -32,7 +32,7 @@ const app = express();
 app.use(express.json({ limit: '10mb' }));
 
 const allowedOrigins = [
-  'https://default.nfy.fyi',
+  'https://default-010.netlify.app',
   'https://default-github-io.onrender.com',
 ];
 app.use(cors({
